@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://trapqueen101.github.io/Jobsite-/sitemap.xml
