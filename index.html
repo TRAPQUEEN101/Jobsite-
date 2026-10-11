@@ -33,58 +33,92 @@
 
     <!-- Structured Data JSON-LD for Google Jobs & SERPs -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Global Jobs Portal",
-      "url": "https://globaljobsboard.com/",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://globaljobsboard.com/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
+{
+  "@context": "https://schema.org/",
+  "@type": "JobPosting",
+  "title": "Senior Full Stack Software Engineer",
+  "description": "We are seeking an experienced Senior Full Stack Engineer skilled in React, Node.js, and Cloud Infrastructure to lead engineering initiatives.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "Global Jobs Portal",
+    "value": "JOB_INIT_FULLSTACK_001"
+  },
+  "datePosted": "2026-10-10",
+  "validThrough": "2026-12-31",
+  "employmentType": "FULL_TIME",
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "CloudScale Systems",
+    "sameAs": "https://globaljobsboard.com/"
+  },
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US"
     }
-    </script>
+  },
+  "jobLocationType": "TELECOMMUTE",
+  "applicantLocationRequirements": {
+    "@type": "Country",
+    "name": "US"
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": 120000,
+      "maxValue": 170000,
+      "unitText": "YEAR"
+    }
+  }
+}
+</script>
 
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "JobPosting",
-      "title": "Senior Full Stack Software Engineer",
-      "description": "We are seeking an experienced Senior Full Stack Engineer skilled in React, Node.js, and Cloud Infrastructure to lead engineering initiatives.",
-      "identifier": {
-        "@type": "PropertyValue",
-        "name": "Global Jobs Portal",
-        "value": "JOB_INIT_FULLSTACK_001"
-      },
-      "datePosted": "2026-10-10",
-      "validThrough": "2026-12-31",
-      "employmentType": "FULL_TIME",
-      "hiringOrganization": {
-        "@type": "Organization",
-        "name": "CloudScale Systems",
-        "sameAs": "https://globaljobsboard.com"
-      },
-      "jobLocation": {
-        "@type": "Place",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "US"
-        }
-      },
-      "jobLocationType": "TELECOMMUTE",`n    "applicantLocationRequirements": { "@type": "Country", "name": "US" },
-      "baseSalary": {
-        "@type": "MonetaryAmount",
-        "currency": "USD",
-        "value": {
-          "@type": "QuantitativeValue",
-          "minValue": 120000,
-          "maxValue": 170000,
-          "unitText": "YEAR"
-        }
-      }
+{
+  "@context": "https://schema.org/",
+  "@type": "JobPosting",
+  "title": "Senior Full Stack Software Engineer",
+  "description": "We are seeking an experienced Senior Full Stack Engineer skilled in React, Node.js, and Cloud Infrastructure to lead engineering initiatives.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "Global Jobs Portal",
+    "value": "JOB_INIT_FULLSTACK_001"
+  },
+  "datePosted": "2026-10-10",
+  "validThrough": "2026-12-31",
+  "employmentType": "FULL_TIME",
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "CloudScale Systems",
+    "sameAs": "https://globaljobsboard.com/"
+  },
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US"
     }
-    </script>
+  },
+  "jobLocationType": "TELECOMMUTE",
+  "applicantLocationRequirements": {
+    "@type": "Country",
+    "name": "US"
+  },
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": 120000,
+      "maxValue": 170000,
+      "unitText": "YEAR"
+    }
+  }
+}
+</script>
 
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com" async></script>
