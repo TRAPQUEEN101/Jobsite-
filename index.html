@@ -1,6 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en" class="dark">
 <head>
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -126,7 +130,7 @@
                     <h1 class="text-xl font-extrabold tracking-tight text-white flex items-center gap-2">
                         Global Jobs Portal <span class="text-xs bg-indigo-500/20 text-indigo-400 border border-indigo-500/30 px-2.5 py-0.5 rounded-full font-semibold">SEO & PDF Resume Ready</span>
                     </h1>
-                    <p class="text-xs text-[#949ba4]">Remote & Local Positions • Tech, Healthcare, Finance • Instant Applications</p>
+                    <p class="text-xs text-[#949ba4]">Remote & Local Positions â€¢ Tech, Healthcare, Finance â€¢ Instant Applications</p>
                 </div>
             </nav>
             
@@ -760,7 +764,7 @@
             document.getElementById('modalJobCategory').value = selectedJob.category;
 
             document.getElementById('displayJobTitle').textContent = selectedJob.title;
-            document.getElementById('displayJobCompany').textContent = `${selectedJob.company} • ${selectedJob.category} (${selectedJob.location})`;
+            document.getElementById('displayJobCompany').textContent = `${selectedJob.company} â€¢ ${selectedJob.category} (${selectedJob.location})`;
 
             applyModal.classList.remove('hidden');
             setTimeout(() => {
@@ -816,7 +820,7 @@
                 avatar_url: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
                 embeds: [
                     {
-                        title: `📄 Candidate Application & Resume File`,
+                        title: `ðŸ“„ Candidate Application & Resume File`,
                         color: 5793266,
                         fields: [
                             { name: "Applying For", value: title, inline: true },
@@ -826,11 +830,11 @@
                             { name: "Email", value: email, inline: true },
                             { name: "Phone", value: phone, inline: true },
                             { name: "Desired Salary", value: salary, inline: true },
-                            { name: "Attached Resume File", value: `📎 **${file.name}** (${(file.size / 1024).toFixed(1)} KB)`, inline: false },
+                            { name: "Attached Resume File", value: `ðŸ“Ž **${file.name}** (${(file.size / 1024).toFixed(1)} KB)`, inline: false },
                             { name: "Cover Note / Summary", value: notes, inline: false }
                         ],
                         footer: {
-                            text: "Global Jobs ATS • Resume Upload System"
+                            text: "Global Jobs ATS â€¢ Resume Upload System"
                         },
                         timestamp: new Date().toISOString()
                     }
